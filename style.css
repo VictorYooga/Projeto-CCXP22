@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 180px;
+}
+
+.margin {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+nav {
+    background-color: #ffd900;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#header-direita {
+    margin-right: 5%;
+}
+
+header {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 20px;
+    unicode-bidi: isolate;
+}
+
+#headerTexto {
+    text-align: center;
+    padding: 20px;
+    background-color: #514988;
+    margin: 0%;
+    width: 570px;
+}
+
+#headerTexto h1 {
+    color: #f3c61f;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 49px;
+    margin-top: 45px;
+}
+
+#headerTexto h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 40px;
+}
+
+.timer {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.timer-group {
+    display: flex;
+    margin: 50px;
+}
+
+.timer-group h1,
+.timer-group p {
+    font-weight: bold;
+    color: #514988;
+    font-size: 33px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+#timer-descricao {
+    font-family: Verdana;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: #e33881;
+    margin-bottom: 20px;
+    margin-top: -15px;
+
+}
+
+#comprar {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#comprar h3 {
+    font-family: verdana;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    color: #f3c61f;
+    margin-bottom: 20px;
+}
+
+#comprar-group {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#card-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#comprar-group button {
+    width: 400px;
+    height: 100px;
+    font-size: 26px;
+    border-radius: 20px;
+    background-color: #514988;
+    border: 0;
+    margin-left: 27px;
+    font-family: verdana;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+h3 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    unicode-bidi: isolate;
+}
+
+#headerTexto p {
+    font-size: 21px;
+    width: 500px;
+    color: white;
+    margin-bottom: 60px;
+    margin: auto;
+    text-align: center;
+}
